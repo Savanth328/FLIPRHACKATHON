@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Softtech Career info system</title>
+  <link rel="stylesheet" type="text/css" href="jobseekerstyle.css">
+  <link rel="stylesheet" type="text/css" href="jobseekerstyle1.css">
+  <div class="topnav">
+    <a class="active" href="#search">Find job</a>
+    <input type="text" placeholder="salary range..">
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="job3.jpg" alt="job3" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))" class="center">
+        <h3>Softtech Career info system Pvt Ltd. </h3>
+        <div class="tab">
+                    <button class="tablinks" onmouseover="openCity(event, 'Overview')">Overview</button>
+                    <button class="tablinks" onmouseover="openCity(event, 'Job description')">Job description</button>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="Overview" class="tabcontent">
+          <h3>Overview</h3>
+            <p>In the data driven, it is important to  maintain a database of all the users for better aggregation. Need solid background in SQL and other database tools to have an efficient management system. You will working closely with the IT team in developing and maintaining the data. 
+            You will have an opportunity to growth both as professional and personal through the organization.</p>
+            </div>
+            <div id="Job description" class="tabcontent">
+              <h3>Job Description</h3>
+              <p>As a developer in providing application design guidance and consultation, utilizing a thorough understanding of applicable technology, tools and existing designs. - Analyzes highly complex business requirements, designs and writes technical specifications to design or redesign complex computer platforms and applications. - Provides coding direction to less experienced staff or develops highly complex original code. 
+              Acts as an expert technical resource for modeling, simulation and analysis efforts. 
+              Verifies program logic by overseeing the preparation of test data, testing and debugging of programs.  Oversees overall systems testing and the migration of platforms and applications to production. - Develops new documentation, departmental technical procedures and user guides. - Leads projects, allocates and manages resources and manages the work of less experienced staff. 
+              Assures quality, security and compliance requirements are met for supported area and oversees creation of or updates to and testing of the business continuation plan.: 7+ years application development and implementation experience.</p>
+            </div>
+            
+
+
+
+
+</head>
+<div class="clearfix"></div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+<body>
+
+</body>
+</html>
